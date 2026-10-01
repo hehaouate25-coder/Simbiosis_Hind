@@ -279,7 +279,13 @@ FR-017 se conserva para no perder el identificador histórico, pero su estado es
 | ID | Categoría y atributo | Requisito no funcional | Ámbito (Global/Local) | UR/FR relacionados | Método de comprobación | Estado |
 | --- | --- | --- | --- | --- | --- | --- |
 | NFR-07 |NFR-Q (Eficiencia; Escalabilidad; Mantenibilidad) |La plataforma mantendrá los objetivos de capacidad y rendimiento definidos para la primera versión sin intervención manual del personal de la organización.| G | -  | Prueba de carga automatizada con 100 usuarios concurrentes y 10 operaciones/s durante 30 min; comprobar mediante registros de monitorización, ausencia de intervención manual. | - |
-| NFR-001| NFR-Q (Disponibilidad)| La plataforma alcanzará una disponibolidad mínima de 99,5% en cada mes natural| G | | Medida mediante comprobaciones externas cada 5 minutos|A3 S1.1|
+| NFR-001| NFR-Q (Disponibilidad)| La plataforma alcanzará una disponibolidad mínima de 99,5% en cada mes natural| G | - | Medida mediante comprobaciones externas cada 5 minutos|A3 S1.1|
+| NFR-002| NFR-I (Interfaz externa)| La plataforma se desplegará en una infraestructura en la nubegestionada por un proveedor externo| G | - | Se puede comprobar que puede suportar un nivel alto de peticiones | DVA S3.3|
+| NFR-003| NFR-R (Seguridad)| La plataforma configurará mecanismos para realizar copias de seguridad diarias| G | - | Se realizará una prueba de restauración al menos una vez cada tres meses| DVA S3.3 |
+| NFR-200| NFR-Q (Rendimiento)| La plataforma tendrá un periodo de mantenimiento de como máximo cuatro horas y dará un aviso de 42 horas de antelación, en caso de superar las cuatro horas será indisponibilidad de la plataforma| G | - | - |ATO 2.1.5|
+| NFR-300| NFR-I ()| El cuidador que permanezca tres meses sin asosación con ningum paciente se coinsiderará inactivo y si permanece así durante un año completo se aliminará| L | - | Se comprobará el contraste de información del cuidador cada año|ATO 2.2.4|
+
+
 Categorías y atributos: 
 1) Requisitos de calidad (NFR-Q): Rendimiento, Usabilidad, Seguridad, Fiabilidad, Disponibilidad, Modificabilidad, Portabilidad, Eficiencia, Escalabilidad, Verificabilidad / Testabilidad, Robustez, Seguridad funcional (safety), Integridad, Reusabilidad, Instalabilidad.
 2) Restricciones (NFR-R): Tecnología y entorno, Hardware, Regulaciones y estándares, Compatibilidad, Interfaces existentes, Restricciones presupuestarias y de gestión.
