@@ -268,6 +268,14 @@ enlazar a los términos de esta sección, pero no los definirá de nuevo.
 
 | Término | Definición en Proyecto Simbiosis | Fuente |
 | --- | --- | --- |
+| Nutricionista| Rol profeional acreditado, común para médicos y nuticionistas, que puede publicar y validar recetas| A3 S1.2, 1.3 Y S3|
+| Acreditación profesional| Procedimiento por el que una persona demuestra su condición profesional para actuar como nutricionista| A3 S1.3|
+| Receta aceptada| Receta adecuada al perfil, las alergias o las restricciones alimentarias de un paciente. La plataforma no modifíca automaticamente sus ingredientes o cantidades| DVA S1.1 Y 2.1, A3 S3|
+| Paciente| Rol de usuario que padece una o varias Enfermedades Inflamatorias Intestinales (EII) | DVA 1.1|
+| Receta propuesta| Receta propuesta por un paciente o cuidador que requiere validación de un nutricionista| A3 S3|
+| Foro| Espacion común para compartir dudas y experiencias relacionadas con la convivencia con la enfermedad| A3 S4|
+| Mensaje directo| Mensaje enviado por una cuenta de un usuario a otro, siempre con caracter positivo|A3 S4|
+| Cuidador| Persona encargada de vigilar positivamente a sus pacientes| A3 S4|
 
 ## 10. Modelos de análisis
 
