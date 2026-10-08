@@ -2,7 +2,7 @@
 
 | Versión | Fecha | Estado |
 | --- | --- | --- |
-| 1.3 | 05/10/2026 | Plantilla |
+| 1.3 | 08/10/2026 | Borrador |
 
 **Iteración de referencia:** [Indica la última iteración incorporada al modelo.]
 
@@ -59,11 +59,11 @@ Para cada vista, incluye un título, una frase sobre su alcance y el diagrama. T
 
 ### 4.1 Primera vista
 
-**Título:** [Indica el título de la vista.]
+**Título:** Modelo casos de uso acceso cuentas ayuda
 
 **Alcance:** [Explica qué funciones representa esta vista.]
 
-[Inserta aquí el diagrama.]
+![Casos de uso de acceso cuentas y ayuda](imagenes/casos-de-uso-acceso-cuentas-ayuda.png)
 
 Si una decisión necesita aclaración, puedes añadir una nota breve junto al diagrama.
 
