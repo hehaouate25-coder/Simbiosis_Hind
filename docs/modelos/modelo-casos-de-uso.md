@@ -28,9 +28,12 @@ Registra los roles externos que participan en las funciones representadas. Un ac
 
 | Nombre del actor | Rol que representa |
 | --- | --- |
-| [Nombre] | [Describe el rol externo.] |
+| Usuario | Persona que interactúa con el Simbiosis |
+| Usuario registrado| Persona que dispone de una cuenta en la plataforma|
+
 
 Mantén los mismos nombres en las tablas, los diagramas y las descripciones.
+Usuario registrado es una especialización de Usuario. Disponer de una cuenta no significa haber iniciado sesión 
 
 [Si existen generalizaciones, identifica el actor general y los actores especializados. Explica qué relación existe entre ellos. Puedes hacer referencia a un diagrama adicional de actores si facilita la lectura. Si no utilizas generalizaciones, indícalo.]
 
@@ -40,7 +43,7 @@ Registra los casos que aparecen en el modelo. Asigna a cada caso un identificado
 
 | Identificador | Nombre | Objetivo | Participantes |
 | --- | --- | --- | --- |
-| [UC-…] | [Nombre] | [Explica el objetivo.] | [Indica los actores que participan.] |
+| UC-05| Actualizar perfil | Actualizar los datos personales y preferencias de la cuenta propia |  Usuario registrado|
 
 [Indica los actores que participan. Si procede, distingue el actor principal, que busca alcanzar el objetivo del caso de uso y normalmente inicia la interacción, de los actores de apoyo, que proporcionan servicios o información al sistema.]
 
@@ -98,7 +101,12 @@ En E1 basta con un respaldo breve del diagrama. La tabla permite ampliar la traz
 
 | Elemento del modelo | UR y FR de referencia | NFR pertinentes | Relación con los requisitos |
 | --- | --- | --- | --- |
-| [Caso, actor o relación] | [Identificadores] | [Identificadores, si procede] | [Explica qué respaldan o condicionan.] |
+| UC-05 Actualizar perfil | UR-03, FR-019 |NFR-010 GLOBAL | FR-019 permite modificar datos personales y preferencia, pero excluye alias y correo electrónico; NFR-010 condiciona la accesibilidad de esta función |
+| UC-06 Iniciar sesión|  FR-015| NFR-010 GLOBAL| FR-15 permite el inicio de sesión mediante correo electrónico y contraseña válidos|
+| UC-07 Restablecer contraseña| FR-016| GLOBAL| permite recuperar o restablecer la contraseña exclusivamente mediante un enlace enviado al correo electrónico asociado a la cuenta|
+| UC-08 Modificar listado de cuentas| FR-181, FR-182, FR-183, FR-184, FR-185.| GLOBAL| NFR-181	El sistema debe permitir al coordinador aprobar nuevas cuentas de cuidador y de nutricionista desde el panel de gestión de inscripciones.FR-182 permite al coordinador suspender cuentas de usuario activas desde el panel de gestión de inscripciones.
+FR-183 permite al coordinador eliminar cuentas de usuario desde el panel de gestión de inscripciones.
+FR-184	permite al coordinador visualizar un listado de todas las cuentas de usuario, con información básica (nombre, correo, rol y estado de la cuenta).|
 
 Consulta el [catálogo canónico](../requisitos/catalogo-requisitos.md) y la [SRS](../requisitos/srs.md). Si falta una condición, indica que está pendiente de aclaración. No la presentes como un requisito confirmado.
 
