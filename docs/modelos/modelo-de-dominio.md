@@ -23,6 +23,8 @@ Exporta cada vista trabajada a PNG en `docs/modelos/imagenes/Análisis.png` y a�
 ### 3.1 Gestión de usuarios
 
 Pendiente. Imagen prevista: `clases-dominio-gestion-usuarios.png`. Fuente principal: acta §2 y acuerdos del apartado 9.
+<img width="1920" height="1020" alt="Módulo-Gestión-de-Usuarios" src="https://github.com/user-attachments/assets/b4ca10a4-0309-4c0b-88f2-f33fe5c80a98" />
+
 
 ### 3.2 Gestión de recetas
 
