@@ -18,7 +18,7 @@ Representa clases conceptuales, atributos y relaciones. Cada clase pertenece a u
 
 ## 3 Vistas del modelo de dominio
 
-Exporta cada vista trabajada a PNG en `docs/modelos/imagenes/` y añade aquí su imagen mediante un enlace relativo. Mientras una imagen no exista, conserva únicamente el texto de pendiente; no añadas enlaces rotos.
+Exporta cada vista trabajada a PNG en `docs/modelos/imagenes/Análisis.png` y añade aquí su imagen mediante un enlace relativo. Mientras una imagen no exista, conserva únicamente el texto de pendiente; no añadas enlaces rotos.
 
 ### 3.1 Gestión de usuarios
 
