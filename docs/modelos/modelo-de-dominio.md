@@ -29,26 +29,32 @@ Pendiente. Imagen prevista: `clases-dominio-gestion-usuarios.png`. Fuente princi
 ### 3.2 Gestión de recetas
 
 Pendiente. Imagen prevista: `clases-dominio-gestion-recetas.png`. Fuente principal: acta §3 y acuerdos del apartado 9.
+<img width="1920" height="1020" alt="Módulo-Gestión-de-Recetas" src="https://github.com/user-attachments/assets/774c0527-aaf2-4297-9753-11c95c81b71c" />
 
 ### 3.3 Foro
 
 Pendiente. Imagen prevista: `clases-dominio-foro.png`. Fuente principal: acta §4 y acuerdos del apartado 9.
+<img width="1920" height="1020" alt="Módulo-Foro" src="https://github.com/user-attachments/assets/63b8f269-8dfc-40f4-bd95-5251ea11c31c" />
 
 ### 3.4 Gestión de datos de salud
 
 Pendiente. Imagen prevista: `clases-dominio-gestion-datos-salud.png`. Fuente principal: acta §5 y acuerdos del apartado 9.
+<img width="1920" height="1020" alt="Módulo-Gestión-de-Datos-de-Salud" src="https://github.com/user-attachments/assets/cfddafde-a30d-4b95-a2de-8ca1391bfdbc" />
 
 ### 3.5 Gestión de publicaciones de salud
 
 Pendiente. Imagen prevista: `clases-dominio-gestion-publicaciones-salud.png`. Fuente principal: acta §6 y acuerdos del apartado 9.
+<img width="1920" height="1020" alt="Módulo-Gestión-de-Publicaciones-de-Salud" src="https://github.com/user-attachments/assets/a3f43984-0452-46e3-a199-01d0f099a283" />
 
 ### 3.6 Moderación de contenidos
 
 Pendiente. Imagen prevista: `clases-dominio-moderacion-contenidos.png`. Fuente principal: acta §7 y acuerdos del apartado 9.
+<img width="1920" height="1020" alt="Módulo-Moderación-de-Contenidos" src="https://github.com/user-attachments/assets/1e4eb949-3a87-497a-b37d-1b68e96df96f" />
 
 ### 3.7 Guía interactiva
 
 Pendiente. Imagen prevista: `clases-dominio-guia-interactiva.png`. Fuente principal: acta §8 y acuerdos del apartado 9.
+<img width="1920" height="1020" alt="Módulo-Guía-Interactiva" src="https://github.com/user-attachments/assets/6e50a5b2-907d-45af-a603-347507b39d9d" />
 
 ### 3.8 Organización en paquetes
 
